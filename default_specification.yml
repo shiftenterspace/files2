@@ -10,12 +10,12 @@
 ## url can be a single link to an ics file or a list.
 #url: https://your.link.to/a-file.ics
 url:
-- https://www.calendarlabs.com/ical-calendar/ics/46/Germany_Holidays.ics
+- https://outlook.live.com/owa/calendar/00000000-0000-0000-0000-000000000000/1c3b1720-7bcb-4a70-a02e-1bb12c719937/cid-79D93EAF3BA4F5BE/calendar.ics
 #- https://www.calendarlabs.com/ical-calendar/ics/46/Germany_Holidays.ics
 #- https://www.calendarlabs.com/ical-calendar/ics/46/Germany_Holidays.ics
 
 ## The title is displayed as the title of the html page.
-title: "Open Web Calendar"
+title: "Kalender"
 
 ## The language of the calendar. You can choose from these languages:
 ## Arabic: "ar"
@@ -47,7 +47,7 @@ title: "Open Web Calendar"
 ## Swedish: "sv"
 ## Turkish: "tr"
 ## Ukrainian: "ua"
-language: "en"
+language: "de"
 
 ## The skin changes the look of the calendar.
 ## They are located in the static/css/dhtmlx folder.
@@ -73,7 +73,7 @@ target: "_top"
 loader: "/img/loaders/circular-loader.gif"
 
 ## Choose which tab to display when the calendar opens.
-tab: "month"
+tab: "agenda"
 #tab: "week"
 #tab: "day"
 #tab: "agenda"
@@ -89,13 +89,13 @@ tabs:
 ## You can hide these buttons:
 controls:
 ## Users can go to the next day/week/month.
-- "next"
+#- "next"
 ## Users can go to the previous day/week/month.
-- "previous"
+#- "previous"
 ## Users can go to the current day/week/month.
-- "today"
+#- "today"
 ## Users can see the date.
-- "date"
+#- "date"
 
 ## You can describe the calendar with a text so people know what it is about.
 description: "This is a calendar which provides a website and an ICS subscription link based on the different calendars it is configured to use."
