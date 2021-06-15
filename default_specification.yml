@@ -82,7 +82,7 @@ tab: "agenda"
 tabs:
 #- "month"
 #- "week"
-- "day"
+#- "day"
 #- agenda
 
 ## Users can control the calendar.
