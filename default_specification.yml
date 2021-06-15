@@ -66,6 +66,10 @@ css: "
 .agenda_tab {
   left: 0px !important;
 }
+
+.dhx_cal_container
+ {
+font-size: 36px !important;  }
 "
 
 ## The target is the place where links are opened.
