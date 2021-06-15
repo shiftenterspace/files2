@@ -80,8 +80,8 @@ tab: "agenda"
 
 ## Choose which tabs can be chosen by the user.
 tabs:
-- "month"
-- "week"
+#- "month"
+#- "week"
 - "day"
 #- agenda
 
@@ -95,7 +95,7 @@ controls:
 ## Users can go to the current day/week/month.
 #- "today"
 ## Users can see the date.
-#- "date"
+- "date"
 
 ## You can describe the calendar with a text so people know what it is about.
 description: "This is a calendar which provides a website and an ICS subscription link based on the different calendars it is configured to use."
