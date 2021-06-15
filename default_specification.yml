@@ -59,7 +59,14 @@ language: "de"
 skin: "dhtmlxscheduler_material.css"
 
 ## You can embed custom css code, i.e. to change the background or font.
-css: ""
+css: "
+.dhx_cal_tab dhx_cal_tab_standalone agenda_tab active {
+  left: 0px
+
+}
+
+
+"
 
 ## The target is the place where links are opened.
 ## "_top" opens the link where the website is embedded.
@@ -95,7 +102,7 @@ controls:
 ## Users can go to the current day/week/month.
 #- "today"
 ## Users can see the date.
-#- "date"
+- "date"
 
 ## You can describe the calendar with a text so people know what it is about.
 description: "This is a calendar which provides a website and an ICS subscription link based on the different calendars it is configured to use."
