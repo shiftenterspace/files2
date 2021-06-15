@@ -62,10 +62,10 @@ skin: "dhtmlxscheduler_material.css"
 css: "
 .dhx_cal_tab dhx_cal_tab_standalone agenda_tab active {
   left: 0px
-
 }
-
-
+.agenda_tab {
+  left: 0px
+}
 "
 
 ## The target is the place where links are opened.
