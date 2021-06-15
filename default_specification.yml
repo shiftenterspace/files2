@@ -61,10 +61,10 @@ skin: "dhtmlxscheduler_material.css"
 ## You can embed custom css code, i.e. to change the background or font.
 css: "
 .dhx_cal_tab dhx_cal_tab_standalone agenda_tab active {
-  left: 0px
+  left: 0px !important;
 }
 .agenda_tab {
-  left: 0px
+  left: 0px !important;
 }
 "
 
